@@ -37,7 +37,7 @@
         .then(response => response.json())
         // .then(response => console.log(response));
         .then(response => response.results.forEach(def => {
-          console.log(def);
+          // console.log(def);
           this.films.push({
             id: def.episode_id,
             title: def.title,
